@@ -1,0 +1,10 @@
+URL to install shopify app          
+https://5dcd-154-72-150-62.ngrok.io/CG-Mobile/install.php?shop=aussbildungn.myshopify.com
+
+ionic cordova run android --no-native-run --livereload --external
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore small-deals.keystore app.aab viaziza
+
+zipalign -v 4 app.aab signed.aab
+
+after push on github
